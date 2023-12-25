@@ -73,7 +73,7 @@ function getMealRecipe(e) {
 
 
 function mealRecipeModal(meal) {
-    console.log(meal);
+    // console.log(meal);
     meal = meal[0];
      mealDetailsContent.innerHTML =  `
     <h2 class="recipe-title">${meal.strMeal}</h2>
