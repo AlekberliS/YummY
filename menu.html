@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Menu Items</title>
+    <!-- Include Font Awesome CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/menu.css" />
+  </head>
+  <body>
+    <header class="header ">
+      <div class="container">
+      <div class="logo"><img src="./assets/images/logo_main.PNG" alt="logo" >
+      <p class="logo__txt">YummY</p></div>
+      <nav class="header__nav">
+          <ul class="header__nav__ul" id="headerNavUl"> 
+              <li class="header__nav__ul__li"><a href="./index.html" class="header__nav__ul__li__a" >Home</a></li>
+              <li class="header__nav__ul__li"><a href="./about.html" class="header__nav__ul__li__a"  >About</a></li>
+              <li class="header__nav__ul__li"><a href="./menu.html" class="header__nav__ul__li__a" style="color:var( --headerHov) ;">Menu</a></li>
+              <li class="header__nav__ul__li"><a href="./contact.html" class="header__nav__ul__li__a">Contact</a></li>
+              <li class="header__nav__ul__li"><a href="./doIt.html" class="header__nav__ul__li__a">Do it</a></li>
+          </ul> 
+           <div class="header__lang">
+          <img src="./assets/images/americaa.png" class="header__lang__img" alt="america">
+      </div>
+      <div class="header__signIn">
+        <a href="./signIn.html"><button class="signIn">Login</button></a>
+      </div>
+      <div class="burger-icon" id="burger-icon"  >
+          <i class="fa-solid fa-burger fa-2xl burIcon"></i>
+                   </div>
+      </nav>
+    
+  </div>
+  </header>
+    <main class="main">
+      <div class="filtration">
+      <button class="filterOnOff">Filters</button>
+      <div class="filters">
+      <div class="priceFilter">
+        <label for="priceFrom">Price From:</label>
+        <input type="number" id="priceFrom" min="0" step="1" />
+
+        <label for="priceTo">Price To:</label>
+        <input type="number" id="priceTo" min="0" step="1" />
+      </div>
+      <div class="typeF" >
+        <label for="typeFilter">Meal Type:</label>
+        <select id="typeFilter">
+          <option value="all">All</option>
+          <option value="pizza">Pizza</option>
+          <option value="sandwich">Sandwich</option>
+          <option value="cookies">Cookies</option>
+          <option value="salad">Salad</option>
+          <option value="burger">Burger</option>
+          <option value="soup">Soup</option>
+          <option value="special">Special</option>
+          <option value="pasta">Pasta</option>
+          <option value="nachos">Nachos</option>
+          <option value="fajitas">Fajitas</option>
+          <option value="chinese">Chinese</option>
+          <option value="indian">Indian</option>
+          <option value="mexican">Mexican</option>
+          <option value="frittata">Frittata</option>
+          <!-- <option value="sweety">Sweety</option> -->
+          <option value="omlette">Omlette</option>
+          <!-- <option value="fast-food">Fast-food</option> -->
+          <option value="drink">Drink</option>
+          <option value="meatloaf">Meatloaf</option>
+          <option value="meat">Meat</option>
+          <option value="fries">Fries</option>
+          <option value="smoothies">Smoothies</option>
+          <option value="ice-cream">Ice-cream</option>
+          <!-- Add more options as needed -->
+        </select>
+      </div>
+      <div class="ratingF">
+        <label for="ratingFilter">Rating:</label>
+        <input type="number" id="ratingFilter" min="1" max="5" step="0.1" />
+      </div>
+      <div class="priceF">
+        <label for="sortingOrder">Price:</label>
+        <select id="sortingOrder">
+          <option value="default">Default</option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+      </div>
+      <div class="ratingF">
+        <label for="sortingOrder2">Rating sort:</label>
+        <select id="sortingOrder2">
+          <option value="default">Default</option>
+          <option value="ascending">Ascending</option>
+          <option value="descending">Descending</option>
+        </select>
+      </div>
+
+      <div class="titleR">
+        <label for="titleFilter">Title:</label>
+        <input type="text" id="titleFilter" />
+      </div>
+
+      <div class="restaurantF">
+        <label for="restaurantFilter">Restaurant:</label>
+        <input type="text" id="restaurantFilter" />
+      </div>
+</div></div>
+      <div id="cartIcon" onclick="openCartModal()">
+        <i class="fas fa-shopping-cart" style="color: var(--headerHov)"></i>
+        <span
+          id="cartCount"
+          style="color: var(--blackCol); background-color: white"
+          >0</span
+        >
+      </div>
+      <!-- Sepet Modal Penceresi -->
+      <div id="cartModal">
+        <div class="modalContent">
+          <span class="closeModal" onclick="closeCartModal()">&times;</span>
+          <h2>Your Cart</h2>
+          <div id="cartItemsContainer"></div>
+          <p>Total: $<span id="totalPrice">0.00</span></p>
+          <a href="javascript:void(0);" onclick="placeOrder()" target="_blank">
+            <button>Order</button>
+          </a>
+        </div>
+      </div>
+      <div id="menu"></div>
+    </main>
+    <footer class="footer">
+      <div class="footerMar" style="width: 88%;">  <div class="footer__addr">
+      <h1 class="footer__logo" style="text-transform: capitalize;">YummY</h1>
+          
+      <h2>Contact</h2>
+      
+      <address>
+        Dilare Aliyeva Baku / Azerbaijan<br>
+            
+        <a class="footer__btn" href="sonalkbrli04@gmail.com">Email Us</a>
+      </address>
+      </div>
+      
+      <ul class="footer__nav">
+      <li class="nav__item">
+        <h2 class="nav__title">Media</h2>
+      
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Online</a>
+          </li>
+      
+          <li>
+            <a href="#">Print</a>
+          </li>
+              
+          <li>
+            <a href="#">Alternative Ads</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item nav__item--extra">
+        <h2 class="nav__title">Our works</h2>
+        
+        <ul class="nav__ul nav__ul--extra">
+          <li>
+            <a href="#">Health Food</a>
+          </li>
+          
+          <li>
+            <a href="#">Learn Cooking</a>
+          </li>
+          
+          <li>
+            <a href="#">Discount</a>
+          </li>
+          
+          <li>
+            <a href="#">Delivery</a>
+          </li>
+          
+          <li>
+            <a href="#">Fast delivery</a>
+          </li>
+          
+          <li>
+            <a href="#">Vegeterian</a>
+          </li>
+        </ul>
+      </li>
+      
+      <li class="nav__item">
+        <h2 class="nav__title">Legal</h2>
+        
+        <ul class="nav__ul">
+          <li>
+            <a href="#">Privacy Policy</a>
+          </li>
+          
+          <li>
+            <a href="#">Terms of Use</a>
+          </li>
+          
+          <li>
+            <a href="#">Sitemap</a>
+          </li>
+        </ul>
+      </li>
+      </ul>
+      
+      <div class="legal">
+      <p>&copy; 2023 YummY. All rights reserved.</p>
+      
+             </div>
+            </div>
+      </footer>
+    <script src="./menu.js"></script>
+    <script src="./main.js"></script>
+  </body>
+</html>

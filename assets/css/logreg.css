@@ -1,0 +1,73 @@
+.registerFormDiv, .logInForm{
+    border: 1px solid var(--darkerbg);
+    width: 290px;
+    padding: 10px;
+    border-radius: 20px;
+    margin: 40px auto;
+    font-family: 'Courier Prime', monospace;
+}
+h2{
+    text-align: center;
+    font-family: "pacifico";
+}
+
+a{
+    text-decoration: none;
+}
+.formOfRegister, .formOflogin{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+
+}
+input{
+    padding: 6px;
+    border: 0.4px solid #cecece;
+    border-radius: 4px;
+}
+.tools{
+    display: flex;
+     gap: 10px;
+     margin: 4px 0 4px 120px ;
+}
+.tools .facebook:hover,
+.tools .google:hover {
+    transform: scale(1.2);
+}
+.facebook i{
+    color: rgb(8,102,255) !important;
+}
+.google i{
+    color: rgb(234,67,53);
+}
+.question a{
+    color: var(--headerHov);
+}
+.question a:hover{
+    color: var(--darkerbg);
+}
+.declarePass{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: -20px;
+}
+.show{
+    text-align: left !important;
+    margin-bottom: 10px !important;
+}
+.btnRegister, .loginBtn{
+    padding: 8px;
+    background-color: var(--darkerbg);
+    font-family: 'pacifico';
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+}
+.btnRegister:hover{
+    background-color: var(--headerHov);
+    color: aliceblue;
+}
+.loginBtn:hover{
+    background-color: var(--headerHov);
+    color: aliceblue;
+}

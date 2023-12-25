@@ -1,0 +1,1476 @@
+{
+    "meals": [
+  
+           {
+        "_id": "jets_pizza_jet_10_pizza_square_ss1small",
+        "id": 344048,
+        "title": "Jet 10 Pizza Square",
+        "image": "https://spoonacular.com/menuItemImages/cheese-pizza.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Jet's Pizza",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "slice"
+        },
+        "price": 14
+      },
+      {
+        "_id": "nick_n_willys_pizza_fresh_jalapeno_burn_pizza_with_beef_ss1large",
+        "id": 374787,
+        "title": "Fresh Jalapeno Burn Pizza w/ Beef",
+        "image": "https://spoonacular.com/menuItemImages/vegetarian-pizza.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Nick & Willy's Pizza",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "slice"
+        },
+        "price": 27,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+    
+      {
+        "_id": "pizza_inn_bacon_cheddar_ham_pizza_individual_italian_style_crust_1_slice",
+        "id": 358955,
+        "title": "Bacon Cheddar Ham Pizza, Individual, Italian Style Crust (Slice)",
+        "image": "https://images.spoonacular.com/file/wximages/358955-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Pizza Inn",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "slice"
+        },
+        "price": 10,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "dominos_hand_tossed_crust_honolulu_hawaiian_legends_ss194g",
+        "id": 237325,
+        "title": "Hand Tossed Crust, Honolulu Hawaiian Legends",
+        "image": "https://images.spoonacular.com/file/wximages/237325-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Dominos",
+        "servings": {
+          "number": 1,
+          "size": 194,
+          "unit": "g"
+        },
+        "price": 26
+            },
+      {
+        "_id": "bostons_the_gourmet_pizza_bbq_chicken_pizza_ss1large",
+        "id": 338375,
+        "title": "BBQ Chicken Pizza",
+        "image": "https://spoonacular.com/menuItemImages/cheese-pizza.png",
+        "imageType": "png",
+        "rating":4.1,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Boston's The Gourmet Pizza",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 28,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "flying_wedge_pizza_co_classic_pepperoni_1_8_of_a_large_pizza",
+        "id": 401302,
+        "title": "Classic Pepperoni, 1/8 of a Large Pizza",
+        "image": "https://spoonacular.com/menuItemImages/pepperoni-pizza.jpg",
+        "imageType": "jpg",
+        "rating":4.3,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Flying Wedge Pizza Co",
+        "servings": {
+          "number": 1,
+          "size": 163,
+          "unit": "g"
+        },
+        "price": 19,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "pizza_hut_pepperoni_lovers_reg_large_original_stuffed_crust_slice",
+        "id": 403676,
+        "title": "Pepperoni Lover's&reg - Large Original Stuffed Crust (Slice)",
+        "image": "https://images.spoonacular.com/file/wximages/403676-312x231.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Pizza Hut",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "Slice"
+        },
+        "price": 14
+        
+      },
+      
+      {
+        "_id": "stevi_bs_pizza_buffet_loaded_baked_potato_pizza_wheat",
+        "id": 393255,
+        "title": "Loaded Baked Potato Pizza - Wheat",
+        "image": "https://spoonacular.com/menuItemImages/cheese-pizza.png",
+        "imageType": "png",
+        "rating":4.8,
+        "typeOfMeal":"pizza",
+        "restaurantChain": "Stevi B's Pizza Buffet",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "slice"
+        },
+        "price": 13,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "bonos_pit_bar_b_q_3_meat_hawg_salad",
+        "id": 392993,
+        "title": "3-Meat Hawg Salad",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Bono's Pit Bar-b-q",
+        "servings": {
+          "number": 1,
+          "size": 10,
+          "unit": "oz"
+        },
+        "price": 29,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "godfathers_pizza_salad_bar_thousand_island_dressing",
+        "id": 351170,
+        "title": "Salad Bar, Thousand Island Dressing",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Godfather's Pizza",
+        "servings": {
+          "number": 1,
+          "size": 2,
+          "unit": "tbsp"
+        },
+        "price": 24,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "perkins_restaurant_and_bakery_honey_mustard_chicken_crunch_salad",
+        "id": 324655,
+        "title": "Honey Mustard Chicken Crunch Salad",
+        
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Perkins",
+        "servings": {
+          "number": 1,
+          "size": 560.9000244140625,
+          "unit": "g"
+        },
+        "price": 12
+      },
+      {
+        "_id": "seasons_52_warm_roasted_tomato_caprese_salad",
+        "id": 258167,
+        "title": "Warm Roasted Tomato Caprese Salad",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Seasons 52",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 10
+      },
+      {
+        "_id": "gordon_biersch_brewery_gorgonzola_pear_salad_with_warm_bacon_vinaigrette",
+        "id": 355394,
+        "title": "Gorgonzola Pear Salad w/ Warm Bacon Vinaigrette",
+        "image": "https://spoonacular.com/menuItemImages/pear-goat-cheese-pecan-salad.jpg",
+        "imageType": "jpg",
+        "rating":4.7,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Gordon Biersch Brewery",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "salad"
+        },
+        "price": 9
+      },
+      {
+        "_id": "not_your_average_joes_gluten_free_waldorf_salad",
+        "id": 354469,
+        "title": "Gluten-free Waldorf Salad",
+        "image": "https://spoonacular.com/menuItemImages/waldorf-salad.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Not Your Average Joe's",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "plating"
+        },
+        "price": 28
+      },
+      {
+        "_id": "papa_murphys_club_salad_ss189g",
+        "id": 252232,
+        "title": "Club Salad",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Papa Murphy's",
+        "servings": {
+          "number": 1,
+          "size": 189,
+          "unit": "g"
+        },
+        "price": 11,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "uno_chicago_grill_chopped_power_salad_lunch",
+        "id": 357768,
+        "title": "Chopped Power Salad-Lunch",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Uno Chicago Grill",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 20,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "longhorn_steakhouse_grilled_chicken_strawberry_salad_w_vinaigrette_dinner_lunch_menu",
+        "id": 246821,
+        "title": "Grilled Chicken & Strawberry Salad w/ Vinaigrette, Dinner & Lunch Menu",
+        "image": "https://images.spoonacular.com/file/wximages/246821-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"salad",
+        "restaurantChain": "LongHorn Steakhouse",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 25,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "tgi_fridays_fridays_lunch_strawberry_fields_salad",
+        "id": 330328,
+        "title": "Fridays Lunch - Strawberry Fields Salad",
+        "typeOfMeal":"salad",
+        "rating":4.8,
+        "image": "https://spoonacular.com/menuItemImages/strawberry-salad.jpg",
+        "imageType": "jpg",
+        "restaurantChain": "TGI Friday's",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 20,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "yard_house_gardein_classic_burger_on_multigrain_bun_w_blue_cheese",
+        "id": 268457,
+        "title": "Gardein Classic Burger on Multigrain Bun w/ Blue Cheese",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.4,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Yard House",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 19,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "del_taco_double_del_cheeseburger",
+        "id": 236662,
+        "title": "Double Del Cheeseburger",
+        "image": "https://spoonacular.com/menuItemImages/cheeseburger.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Del Taco",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 22,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "papa_ginos_cheddar_bacon_sub_papas_burger",
+        "id": 388376,
+        "title": "Cheddar Bacon Sub Papa's Burger",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Papa Gino's",
+        "servings": {
+          "number": 1,
+          "size": 218,
+          "unit": "g"
+        },
+        "price": 27,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "garfields_restaurant_pub_burger",
+        "id": 306187,
+        "title": "Burger",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Garfield's Restaurant & Pub",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 25,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "de_dutch_pannekoek_house_plain_jane_burger_chicken",
+        "id": 370301,
+        "title": "Plain Jane Burger, Chicken",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.3,
+        "typeOfMeal":"burger",
+        "restaurantChain": "De Dutch Pannekoek House",
+        "servings": {
+          "number": 1,
+          "size": 231,
+          "unit": "grams"
+        },
+        "price": 8,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "steak_n_shake_wisconsin_buttery_burger",
+        "id": 420695,
+        "title": "Wisconsin Buttery Burger",
+        "image": "https://images.spoonacular.com/file/wximages/420695-312x231.png",
+        "imageType": "png",
+        "rating":4.4,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Steak N' Shake",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 16,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "sharis_restaurant_pie_bakery_bleu_cheeseburger",
+        "id": 362917,
+        "title": "Bleu Cheeseburger",
+        "image": "https://spoonacular.com/menuItemImages/cheeseburger.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Shari's",
+        "servings": {
+          "number": 1,
+          "size": 318,
+          "unit": "g"
+        },
+        "price": 22,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "max_ermas_tonys_bodacious_burger_w_fries_max",
+        "id": 247615,
+        "title": "Tony's Bodacious Burger w/ Fries, Max",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.4,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Max & Erma's",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 23,
+        "ingredients": [
+          "Ingredient1",
+          "Ingredient2",
+          "Ingredient3"
+        ]
+      },
+      {
+        "_id": "sam_louies_ny_pizza_cowboy_burger",
+        "id": 381778,
+        "title": "Cowboy Burger",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.5,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Sam & Louie's Ny Pizza",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 11
+      },
+      {
+        "_id": "ninety_nine_restaurants_99_top_a_burger_sauteed_peppers_2_oz",
+        "id": 321356,
+        "title": "99 Top a Burger, Sauteed Peppers, 2 oz",
+        "image": "https://spoonacular.com/menuItemImages/hamburger.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"burger",
+        "restaurantChain": "Ninety Nine Restaurants",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 27
+      },
+      {
+        "_id": "nanoosh_tomato_soup_12_oz",
+        "id": 400778,
+        "title": "Tomato Soup 12 oz",
+        "image": "https://spoonacular.com/menuItemImages/tomato-soup.png",
+        "imageType": "png",
+        "rating":4.2,
+        "typeOfMeal":"soup",
+        "restaurantChain": "Nanoosh",
+        "servings": {
+          "number": 1,
+          "size": 12,
+          "unit": "oz"
+        },
+        "price": 13
+      },
+          {
+        "_id": "the_loop_pizza_grill_chicken_noodle_soup_ss1bowl",
+        "id": 399190,
+        "title": "Chicken Noodle Soup",
+        "image": "https://spoonacular.com/menuItemImages/chicken-noodle-soup.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"soup",
+        "restaurantChain": "Loop Pizza Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "bowl"
+        },
+        "price": 18
+      },
+      
+      {
+        "_id": "cotton_patch_cafe_chicken_tortilla_soup_add_garnishes_ss1bowl",
+        "id": 339562,
+        "title": "Chicken Tortilla Soup (add garnishes)",
+        "image": "https://spoonacular.com/menuItemImages/chicken-tortilla-soup.png",
+        "imageType": "png",
+        "rating":4.7,
+        "typeOfMeal":"soup",
+        "restaurantChain": "Cotton Patch Cafe",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 19
+      },
+      {
+        "_id": "jersey_mikes_subs_boston_clam_chowder_ss12oz",
+        "id": 340626,
+        "title": "Boston Clam Chowder",
+        "image": "https://spoonacular.com/menuItemImages/clam-chowder.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"soup",
+        "rating":4.9,
+        "restaurantChain": "Jersey Mike's Subs",
+        "servings": {
+          "number": 1,
+          "size": 12,
+          "unit": "oz"
+        },
+        "price": 27
+      },
+      {
+        "_id": "erbert_gerberts_vegetarian_black_bean_soup_ss12oz",
+        "id": 385871,
+        "title": "Vegetarian Black Bean Soup",
+        "image": "https://spoonacular.com/menuItemImages/black-bean-soup.png",
+        "imageType": "png",
+        "typeOfMeal":"soup",
+        "rating":4.2,
+        "restaurantChain": "Erbert & Gerbert's Subs & Clubs",
+        "servings": {
+          "number": 1,
+          "size": 12,
+          "unit": "oz"
+        },
+        "price": 26
+      },
+      {
+        "_id": "amicis_east_coast_pizzeria_minestrone_soup_ss1bowl",
+        "id": 389031,
+        "title": "Minestrone Soup",
+        "image": "https://spoonacular.com/menuItemImages/minestrone.jpg",
+        "imageType": "jpg",
+        "rating":4.3,
+        "typeOfMeal":"soup",
+        "restaurantChain": "Amici's East Coast Pizzeria",
+        "servings": {
+          "number": 1,
+          "size": 305,
+          "unit": "g"
+        },
+        "price": 12
+      },
+      {
+        "_id": "au_bon_pain_harvest_mushroom_wheatberries_soup_ss360g",
+        "id": 225054,
+        "title": "Harvest Mushroom & Wheatberries Soup",
+        "image": "https://images.spoonacular.com/file/wximages/225054-312x231.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"soup",
+        "rating":4.9,
+        "restaurantChain": "Au Bon Pain",
+        "servings": {
+          "number": 1,
+          "size": 360,
+          "unit": "g"
+        },
+        "price": 12
+      },
+     
+      {
+        "_id": "big_town_hero_minestrone_tortellini_ss1bowl",
+        "id": 360281,
+        "title": "Minestrone Tortellini",
+        "type":"winter",
+        "image": "https://spoonacular.com/menuItemImages/tortellini-dish.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"special",
+        "restaurantChain": "Big Town Hero",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "Bowl"
+        },
+        "price": 20
+      },
+      {
+        "_id": "carinos_italian_grill_chicken_penne_gorgonzola_grandioso",
+        "id": 231636,
+        "title": "Carinos Chicken Penne Gorgonzola, Grandioso",
+        "image": "https://images.spoonacular.com/file/wximages/231636-312x231.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"special",
+        "rating":5,
+        "restaurantChain": "Carino's",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 22
+      },
+      {
+        "_id": "specialtys_cafe_bakery_tomato_gnocchi_regular",
+        "id": 332841,
+        "title": "Tomato Gnocchi (regular)",
+        "image": "https://spoonacular.com/menuItemImages/gnocchi.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"special",
+        "restaurantChain": "Specialty's Cafe & Bakery",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 12
+      },
+      {
+        "_id": "eat_n_park_penne_pasta_for_seafood_pasta_bake",
+        "id": 239036,
+        "title": "Penne Pasta, for Seafood Pasta Bake",
+        "image": "https://spoonacular.com/menuItemImages/seafood-pasta.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"pasta",
+        "restaurantChain": "Eat n Park",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 14
+      },
+      {
+        "_id": "johnny_carinos_baked_cheese_tortelloni_dinner",
+        "id": 328232,
+        "title": "Carinos Baked Cheese Tortelloni",
+        "image": "https://spoonacular.com/menuItemImages/tortellini-dish.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"pasta",
+        "restaurantChain": "Carino's",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "serving"
+        },
+        "price": 29
+      },
+      {
+        "_id": "willys_mexicana_grill_pico_salsa_kids_burrito",
+        "id": 369793,
+        "title": "Pico Salsa Kid's Burrito",
+        "image": "https://spoonacular.com/menuItemImages/burrito-plain.jpg",
+        "imageType": "jpg",
+        "rating":4.4,
+        "typeOfMeal":"mexican",
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "kids burrito"
+        },
+        "price": 16
+      },
+      {
+        "_id": "taco_cabana_salad_blend_mexican_customs",
+        "id": 264503,
+        "title": "Salad Blend, Mexican Customs",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"salad",
+        "restaurantChain": "Taco Cabana",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 21
+      },
+      {
+        "_id": "willys_mexicana_grill_roasted_red_peppers_super_nachos",
+        "id": 369777,
+        "title": "Roasted Red Peppers Super Nachos",
+        "image": "https://spoonacular.com/menuItemImages/nachos.jpg",
+        "imageType": "jpg",
+        "rating":4,
+        "typeOfMeal":"nachos",
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "nachos"
+        },
+        "price": 11
+      },
+      {
+        "_id": "la_salsa_fresh_mexican_grill_fajita_taco_carnitas",
+        "id": 388769,
+        "title": "Fajita Taco - Carnitas",
+        "image": "https://spoonacular.com/menuItemImages/fajitas.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"fajitas",
+        "restaurantChain": "La Salsa Fresh Mexican Grill",
+        "servings": {
+          "number": 1,
+          "size": 5.800000190734863,
+          "unit": "oz"
+        },
+        "price": 29
+      },
+      {
+        "_id": "willys_mexicana_grill_chipotle_bbq_pork_salad_ingredient",
+        "id": 369638,
+        "title": "Chipotle BBQ Pork Salad Ingredient",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"salad",
+        "rating":4.4,
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "salad"
+        },
+        "price": 21
+      },
+      {
+        "_id": "figaros_italian_pizza_mexican_fiesta_pizza_pan_ss1medium",
+        "id": 351448,
+        "title": "Mexican Fiesta Pizza Pan",
+        "image": "https://images.spoonacular.com/file/wximages/351448-312x231.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"pizza",
+        "rating":4.2,
+        "restaurantChain": "Figaro's Italian Pizza",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "slice"
+        },
+        "price": 15
+      },
+  
+      {
+        "_id": "willys_mexicana_grill_sour_cream_grande_quesadilla",
+        "id": 369761,
+        "title": "Sour Cream Grande Quesadilla",
+        "image": "https://spoonacular.com/menuItemImages/quesadillas.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"special",
+        "rating":4.9,
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "quesadilla"
+        },
+        "price": 27
+      },
+      {
+        "_id": "willys_mexicana_grill_pinto_beans_quesadilla",
+        "id": 369622,
+        "title": "Pinto Beans Quesadilla",
+        "image": "https://spoonacular.com/menuItemImages/quesadillas.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"special",
+        "rating":4.9,
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "quesadilla"
+        },
+        "price": 16
+      },
+      {
+        "_id": "willys_mexicana_grill_sour_cream_salad",
+        "id": 369654,
+        "title": "Sour Cream Salad",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"chinese",
+        "restaurantChain": "Willy's Mexicana Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "salad"
+        },
+        "price": 18
+      },
+      {
+        "_id": "book_ol5118105w",
+        "id": 23127946,
+        "title": "Indian crafts and skills",
+        "image": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1181661373i/1176762._SX300_.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"indian",
+        "restaurantChain": "",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 25
+      },
+   
+      {
+        "_id": "roly_poly_rolled_sandwiches_indian_chicken_melt_on_wheat_sandwich",
+        "id": 386989,
+        "title": "Indian Chicken Melt On Wheat Sandwich",
+        "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"sandwich",
+        "restaurantChain": "Roly Poly",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "sandwich"
+        },
+        "price": 23
+      },
+      
+      {
+        "_id": "flat_top_grill_indian_coconut_curry",
+        "id": 305555,
+        "title": "Indian Coconut Curry",
+        "image": "https://spoonacular.com/menuItemImages/potato-curry.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"special" ,
+        "restaurantChain": "Flat Top Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "fl oz"
+        },
+        "price": 15
+      },
+      {
+        "_id": "le_peep_omni_omelette",
+        "id": 367403,
+        "title": "Omni Omelette",
+        "image": "https://spoonacular.com/menuItemImages/plain-omelet.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"mexican",
+        "rating":4.6,
+        "restaurantChain": "Le Peep",
+        "servings": {
+          "number": 1,
+          "size": 1.3600000143051147,
+          "unit": "lbs"
+        },
+        "price": 15
+      },
+      {
+        "_id": "au_bon_pain_egg_white_mushroom_frittata",
+        "id": 224899,
+        "title": "Egg White & Mushroom Frittata",
+        "image": "https://spoonacular.com/menuItemImages/frittata.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"frittata",
+        "restaurantChain": "Au Bon Pain",
+        "servings": {
+          "number": 1,
+          "size": 253,
+          "unit": "g"
+        },
+        "price": 25
+      },
+      {
+        "_id": "orange_julius_orange_light_smoothie_ssmedium",
+        "id": 424240,
+        "title": "Orange Light Smoothie",
+        "image": "https://images.spoonacular.com/file/wximages/424240-312x231.png",
+        "imageType": "png",
+        "typeOfMeal":"drink",
+        "rating":4.6,
+        "restaurantChain": "Orange Julius",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": "Medium"
+        },
+        "price": 18
+      },
+      {
+        "_id": "mothers_market_kitchen_carrot_raisin_muffins",
+        "id": 275170,
+        "title": "Carrot Raisin Muffins",
+        "image": "https://spoonacular.com/menuItemImages/bran-muffin.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"cookies",
+        "restaurantChain": "Mother's Market & Kitchen",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "serving"
+        },
+        "price": 14
+      },
+      {
+        "_id": "daily_grill_whole_grain_pecan_pancakes",
+        "id": 396137,
+        "title": "Whole Grain Pecan Pancakes",
+        "image": "https://spoonacular.com/menuItemImages/pancakes.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"cookies",
+        "restaurantChain": "Daily Grill",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "plating"
+        },
+        "price": 11
+      },
+      {
+        "_id": "abc_country_restaurants_veggie_omelette",
+        "id": 382171,
+        "title": "Veggie Omelette",
+        "image": "https://spoonacular.com/menuItemImages/plain-omelet.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"omlette",
+        "restaurantChain": "Abc Country Restaurants",
+        "servings": {
+          "number": 1,
+          "size": 600,
+          "unit": "g"
+        },
+        "price": 9
+      },
+      {
+        "_id": "corner_bakery_cafe_farmers_scrambler_w_fresh_fruit_medley",
+        "id": 234951,
+        "title": "Farmer's Scrambler w/ Fresh Fruit Medley",
+        "image": "https://images.spoonacular.com/file/wximages/234951-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"special",
+        "restaurantChain": "Corner Bakery",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 23
+      },
+      {
+        "_id": "breadsmith_hot_cross_buns",
+        "id": 343663,
+        "title": "Hot Cross Buns",
+        "image": "https://spoonacular.com/menuItemImages/hot-cross-bun.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"cookies",
+        "restaurantChain": "Breadsmith",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "bun"
+        },
+        "price": 23
+      },
+      {
+        "_id": "red_mango_the_strawberry_energizer_body_balance_smoothie_24_oz",
+        "id": 390480,
+        "title": "The Strawberry Energizer Body Balance Smoothie, 24 oz",
+        "image": "https://spoonacular.com/menuItemImages/smoothie.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"drink",
+        "restaurantChain": "Red Mango",
+        "servings": {
+          "number": 1,
+          "size": 24,
+          "unit": "oz"
+        },
+        "price": 11
+      },
+      {
+        "_id": "huddle_house_3_pecan_pancakes_3_eggs_6_smokehouse_bacon",
+        "id": 422005,
+        "title": "3 Pecan Pancakes, 3 Eggs & 6 Smokehouse Bacon",
+        "image": "https://spoonacular.com/menuItemImages/pancakes.jpg",
+        "imageType": "jpg",
+        "rating":4.2,
+        "typeOfMeal":"cookies",
+        "restaurantChain": "Huddle House",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 9
+      },
+      {
+        "_id": "texas_steakhouse_saloon_prime_rib_sandwich",
+        "id": 301701,
+        "title": "Prime Rib Sandwich",
+        "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+        "typeOfMeal":"sandwich ",
+        "rating":4.2,
+        "imageType": "jpg",
+        "restaurantChain": "Texas Steakhouse & Saloon",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 24
+      },
+      {
+        "_id": "potbelly_california_turkey_sandwich_big",
+        "id": 335739,
+        "title": "California Turkey Sandwich, Big",
+        "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+        "imageType": "jpg",
+        "rating":4.3,
+        "typeOfMeal":"sandwich ",
+        "restaurantChain": "Potbelly Sandwich Works",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 29
+      },
+      {
+        "_id": "fatz_caesar_salad",
+        "id": 363179,
+        "title": "Caesar Salad",
+        "image": "https://spoonacular.com/menuItemImages/caesar-salad.png",
+        "imageType": "png",
+        "rating":4.4,
+        "typeOfMeal":"salad ",
+        "restaurantChain": "Fatz",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "Salad"
+        },
+        "price": 11
+      },
+      {
+        "_id": "fresh_city_the_gobbler_sub_low_carb_tortilla",
+        "id": 270700,
+        "title": "The Gobbler",
+        "image": "https://spoonacular.com/menuItemImages/turkey-sub.png",
+        "imageType": "png",
+        "rating":4.7,
+        "typeOfMeal":"sandwich ",
+        "restaurantChain": "Fresh City",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 29
+      },
+      {
+        "_id": "einstein_bros_bagels_hot_parm_and_bacon_bagel_sandwich",
+        "id": 418583,
+        "title": "Hot Parm and Bacon Bagel Sandwich",
+        "image": "https://spoonacular.com/menuItemImages/bagel-sandwich.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"sandwich ",
+        "restaurantChain": "Einstein Bros.",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 29
+      },
+      {
+        "_id": "dangelo_grilled_sandwiches_bread_sandwich_pokket_ss1medium",
+        "id": 342861,
+        "title": "Bread Sandwich, Pokket",
+        "image": "https://spoonacular.com/menuItemImages/sandwich.jpg",
+        "imageType": "jpg",
+        "rating":4.4,
+        "typeOfMeal":"sandwich ",
+        "restaurantChain": "D'Angelo Grilled Sandwiches",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 20
+      },
+      {
+        "_id": "carinos_italian_grill_smoked_chicken_jalapeno_cream_ravioli_dinner",
+        "id": 231791,
+        "title": "Carinos Smoked Chicken & Jalapeno Cream Ravioli",
+        "image": "https://images.spoonacular.com/file/wximages/231791-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"special chicken",
+        "restaurantChain": "Carino's",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 16
+      },
+      {
+        "_id": "perkins_restaurant_and_bakery_meatloaf_dinner_homemade",
+        "id": 324925,
+        "title": "Meatloaf Dinner, Homemade",
+        "image": "https://spoonacular.com/menuItemImages/sliced-meatloaf.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"meatloaf",
+        "rating":4.9,
+        "restaurantChain": "Perkins",
+        "servings": {
+          "number": 1,
+          "size": 735.1500244140625,
+          "unit": "g"
+        },
+        "price": 23
+      },
+      {
+        "_id": "longhorn_steakhouse_grilled_chicken_strawberry_salad_w_vinaigrette_dinner_lunch_menu",
+        "id": 246821,
+        "title": "Grilled Chicken & Strawberry Salad w/ Vinaigrette, Dinner & Lunch Menu",
+        "image": "https://images.spoonacular.com/file/wximages/246821-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"special salad",
+        "restaurantChain": "LongHorn Steakhouse",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 22
+      },
+    
+      {
+        "_id": "village_inn_chopped_steak_early_dinner_deal",
+        "id": 337311,
+        "title": "Chopped Steak - Early Dinner Deal",
+        "image": "https://spoonacular.com/menuItemImages/steak.jpg",
+        "imageType": "jpg",
+        "rating":4.9,
+        "typeOfMeal":"meat",
+        "restaurantChain": "Village Inn",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "plating"
+        },
+        "price": 26
+      },
+      {
+        "_id": "village_inn_dinner_salad_w_o_dressing",
+        "id": 337319,
+        "title": "Dinner Salad w/o dressing",
+        "image": "https://spoonacular.com/menuItemImages/salad.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"salad ",
+        "restaurantChain": "Village Inn",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "salad"
+        },
+        "price": 8
+      },
+      {
+        "_id": "bob_evans_country_fried_steak_dinner_with_cinnamon_bread_hc",
+        "id": 324385,
+        "title": "Country-Fried Steak Dinner w/ Cinnamon Bread HC",
+        "image": "https://spoonacular.com/menuItemImages/steak.jpg",
+        "imageType": "jpg",
+        "rating":4.8,
+        "typeOfMeal":"meat",
+        "restaurantChain": "Bob Evans",
+        "servings": {
+          "number": 1,
+          "size": 1,
+          "unit": "entree"
+        },
+        "price": 18
+      },
+      {
+        "_id": "longhorn_steakhouse_grilled_salmon_salad_w_caesar_dinner",
+        "id": 246829,
+        "title": "Grilled Salmon Salad w/ Caesar",
+        "image": "https://images.spoonacular.com/file/wximages/246829-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.7,
+        "typeOfMeal":"salad",
+        "restaurantChain": "LongHorn Steakhouse",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": null
+        },
+        "price": 29
+      },
+      {
+        "_id": "wendys_coke_zero_ssmedium",
+        "id": 267246,
+        "title": "Coke Zero",
+        "image": "https://images.spoonacular.com/file/wximages/267246-312x231.png",
+        "imageType": "png",
+        "rating":4.6,
+        "typeOfMeal":"drink",
+        "restaurantChain": "Wendy's",
+        "servings": {
+          "number": 1,
+          "size": null,
+          "unit": "Medium"
+        },
+        "price": 24
+      },
+      {
+        "_id": "penn_station_east_coast_subs_fries_ss5_5oz",
+        "id": 393549,
+        "title": "Fries",
+        "image": "https://images.spoonacular.com/file/wximages/393549-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"fries",
+        "restaurantChain": "Penn Station East Coast Subs",
+        "servings": {
+          "number": 1,
+          "size": 5.5,
+          "unit": "oz"
+        },
+        "price": 10
+      },
+  
+      
+      {
+        "_id": "burgerville_nonfat_frozen_strawberry_splash_yogurt_smoothies_ss12fluidoz",
+        "id": 364569,
+        "title": "Nonfat Frozen Strawberry Splash Yogurt Smoothies",
+        "image": "https://spoonacular.com/menuItemImages/white-cream.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"smoothies",
+        "restaurantChain": "Burgerville",
+        "servings": {
+          "number": 1,
+          "size": 12,
+          "unit": "Fluid oz."
+        },
+        "price": 10
+      },
+      
+      {
+        "_id": "yogurt_mountain_go_bananas_gluten_free_yogurt",
+        "id": 382460,
+        "title": "Go Bananas! Gluten-Free Yogurt",
+        "image": "https://images.spoonacular.com/file/wximages/382460-312x231.jpg",
+        "typeOfMeal":"yoghurt",
+        "rating":4.6,
+        "imageType": "jpg",
+        "restaurantChain": "Yogurt Mountain",
+        "servings": {
+          "number": 1,
+          "size": 3.140000104904175,
+          "unit": "oz"
+        },
+        "price": 21
+      },
+      {
+        "_id": "a_w_oreo_cookies_cream_blendrrr_ss20oz",
+        "id": 224129,
+        "title": "Oreo Cookies & Cream Blendrrr",
+        "image": "https://spoonacular.com/menuItemImages/cookies.jpg",
+        "imageType": "jpg",
+        "rating":4.6,
+        "typeOfMeal":"cookies",
+        "restaurantChain": "A&W",
+        "servings": {
+          "number": 1,
+          "size": 20,
+          "unit": "fl"
+        },
+        "price": 7
+      },
+      {
+        "_id": "marie_callenders_french_fries_side",
+        "id": 247313,
+        "title": "French Fries",
+        "image": "https://spoonacular.com/menuItemImages/french-fries.jpg",
+        "imageType": "jpg",
+        "typeOfMeal":"fries",
+        "rating":4.6,
+        "restaurantChain": "Marie Callender's",
+        "servings": {
+          "number": 1,
+          "size": 112,
+          "unit": "g"
+        },
+        "price": 13
+      },
+      {
+        "_id": "friendlys_celebration_ice_cream_2_oz",
+        "id": 330729,
+        "title": "Celebration Ice Cream - 2 Oz",
+        "image": "https://images.spoonacular.com/file/wximages/330729-312x231.png",
+        "imageType": "png",
+        "rating":4.4,
+        "typeOfMeal":"ice-cream",
+        "restaurantChain": "Friendly's",
+        "servings": {
+          "number": 1,
+          "size": 2,
+          "unit": "oz"
+        },
+        "price": 23
+      },
+      {
+        "_id": "cold_stone_creamery_strawberry_banana_rendevous_like_it",
+        "id": 332440,
+        "title": "Strawberry Banana Rendevous, Like it",
+        "image": "https://images.spoonacular.com/file/wximages/332440-312x231.jpg",
+        "imageType": "jpg",
+        "rating":4.5,
+        "typeOfMeal":"ice-cream",
+        "restaurantChain": "Cold Stone Creamery",
+        "servings": {
+          "number": 1,
+          "size": 237,
+          "unit": "g"
+        },
+        "price": 7
+      },
+      
+      {
+        "_id": "maggiemoos_ice_cream_treatery_low_fat_lactose_free_vanilla_ice_cream_85_g",
+        "id": 336926,
+        "title": "Low Fat (Lactose Free) Vanilla Ice Cream 85 g",
+        "image": "https://spoonacular.com/menuItemImages/vanilla-ice-cream.png",
+        "imageType": "png",
+        "typeOfMeal":"ice-cream",
+        "rating":4.4,
+        "restaurantChain": "MaggieMoo's Ice Cream & Treatery",
+        "servings": {
+          "number": 1,
+          "size": 85,
+          "unit": "g"
+        },
+        "price": 26
+      },
+      
+      {
+        "_id": "the_old_spaghetti_factory_vanilla_ice_cream",
+        "id": 364227,
+        "title": "Vanilla Ice Cream",
+        "image": "https://spoonacular.com/menuItemImages/vanilla-ice-cream.png",
+        "imageType": "png",
+        "rating":4.4,
+        "typeOfMeal":"ice-cream",
+        "restaurantChain": "Old Spaghetti Factory",
+        "servings": {
+          "number": 1,
+          "size": 85,
+          "unit": "g"
+        },
+        "price": 10
+      }
+    ]
+  }

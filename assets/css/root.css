@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+:root {
+    --backgroundColor-headerAndFooter: #EBF1D5;
+    --darkerbg:#adc166;
+    /* --tenne-tawny: #adc166;
+    --tenne-tawny-dark:rgb(121, 184, 28); */
+    --blackCol:#000;
+    --signInBg:white;
+    --headerHov:rgb(121, 184, 28);
+    --headerAppBar: #19417C;
+    --tooltipColor: #eeeeee;
+    --footerLinkColor : white;
+    --footerQuotesColor: yellow;
+}

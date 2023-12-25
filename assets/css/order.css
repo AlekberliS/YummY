@@ -1,0 +1,36 @@
+.order{
+    font-family: 'Lora', serif;
+    margin: 40px auto;
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    border: 2px solid black;
+    gap: 10px;
+    padding: 10px;
+}
+h1{
+    text-align: center;
+    font-family: "pacifico";
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+input{
+    width: 260px;
+    padding: 10px;
+}
+.orderBtn{
+    padding: 10px;
+    background-color:rgb(185, 195, 149);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-family: 'pacifico';
+
+}
+.orderBtn:hover{
+    color: white !important;
+    background-color: #8da438 ;
+}

@@ -1,0 +1,129 @@
+  .slider-container {
+    width: 500px;
+    overflow: hidden;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .slide {
+    width: 500px;
+    flex: 0 0 auto;
+  }
+.left__h2{
+    font-family: 'Pacifico';
+    margin: 20px 0;
+}
+  img {
+    width: 400px;
+    height: 400px;
+  }
+  .main__left{
+    width: 400px;
+    margin: 20px 0;
+  }
+.about__main{
+    display: flex;
+    margin: 40px 0;
+    justify-content: space-between;
+}
+@media screen and (max-width:982px) {
+    .about__main{
+        display: flex;
+        flex-direction: column;
+    }
+    img {
+       max-width: 600px;
+       min-width: fit-content !important;
+        height: 400px;
+      }
+      .main__left{
+        width: 90%;
+        text-align: center;
+        margin: 20px 0;
+      }
+}
+@media screen and (max-width: 402px) {
+  .slide img {
+      width: 270px !important;
+      margin: 10px auto;
+      padding: 0 0px 0 8px;
+      height: 400px;
+  }
+  .sliderImg {
+      width: 200px !important;
+  }
+}
+.burger-icon {
+  display: none;
+  
+}
+.burIcon{
+  color: var(--darkerbg);
+}
+.burger-icon:hover{
+  color: black !important;
+}
+@media screen and (max-width: 870px) {
+  #headerNavUl {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 70px;
+      left: 0;
+      right: 0;
+      background-color: #fff;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .burger-icon {
+      display: block;
+      margin-left: 10px;
+      color: black;
+      margin-top: 36px;
+      cursor: pointer;
+  }
+
+  #headerNavUl.show {
+      margin-top: 30px;
+      display: flex;
+  }
+  .slider{
+   margin-left: 20%;
+   
+  }
+  .header__nav__ul__li {
+      padding: 6px;
+      text-align: center;
+  }
+
+  .header__nav__ul__li__a {
+      text-decoration: none;
+      color: #333;
+  }
+
+  .header__lang__img {
+      display: none;
+  }
+}
+@media screen and (max-width: 624px){
+  .slider{
+    margin-left: 12%;
+    
+   }
+}
+
+@media screen and (max-width: 562px){
+  .slider{
+    margin-left: 2%;
+    
+   }
+}
+@media screen and (max-width: 518px){
+  .slider-container{
+    display: none;
+    
+   }
+}

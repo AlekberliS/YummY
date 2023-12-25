@@ -1,0 +1,38 @@
+<!-- order.html -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Order</title>
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/order.css">
+  </head>
+  <body>
+    <div class="order">
+    <h1>Order Form</h1>
+    <form id="orderForm" onsubmit="return validateForm()">
+      <input type="text" id="cardNumber" placeholder="Card Number" required />
+
+      <input
+        type="text"
+        id="expirationDate"
+        placeholder="Expiration Date"
+        required
+      />
+
+      <input
+        type="password"
+        id="financialCode"
+        placeholder="Financial Code"
+        required
+      />
+
+      <button type="submit" class="orderBtn">Place Order</button>
+    </form>
+</div>
+    <script src="./order.js"></script>
+  </body>
+</html>

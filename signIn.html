@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <link rel="stylesheet" href="./assets/css/root.css" />
+    <link rel="stylesheet" href="./assets/css/reset.css" />
+    <link rel="stylesheet" href="./assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/logreg.css" />
+  </head>
+  <body>
+    <main>
+      <div class="logInForm">
+        <h2 class="logInH">Login</h2>
+        <form id="loginForm" class="formOflogin">
+          <label for="email">Email:</label>
+          <input type="email" autocomplete="off" id="email" required /><br />
+
+          <div class="pass">
+            <div class="declarePass">
+              <label for="password">Password:</label>
+              <input
+                type="password"
+                autocomplete="off"
+                id="password"
+                required
+              /><br />
+            </div>
+            <div class="show">
+              <input type="checkbox" id="showPassword" />
+              <label for="showPassword" class="shown">Show my password</label>
+            </div>
+          </div>
+
+          <button type="button" onclick="login()" class="loginBtn">
+            Login
+          </button>
+
+          <p class="question">
+            If you don't have an account just now
+            <a href="./register.html">Register </a>here
+          </p>
+          <p class="question">Back to <a href="./index.html">Home</a></p>
+        </form>
+      </div>
+    </main>
+
+    <script src="./logIn.js"></script>
+  </body>
+</html>

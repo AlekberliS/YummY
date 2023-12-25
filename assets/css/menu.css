@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400;0,500;1,400;1,500;1,600&family=Satisfy&display=swap');
+
+#menu {
+    display: flex;
+    font-family: 'Courier Prime', monospace;
+    flex-wrap: wrap;
+}
+.filters{
+    
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    
+}
+.main{
+    margin: 20px 60px;
+    gap: 20px;
+    display: flex;
+}
+.filters label{
+    color: var(--darkerbg);
+}
+.filters input , .filters select{
+    width: 140px;
+    border-radius:4px;
+   padding: 4px;
+   border: 1px solid var(--darkerbg);
+    /* border: none; */
+  color: rgb(19, 31, 1);
+}
+
+h2{
+    /* font-family: 'Satisfy', cursive; */
+    font-family: 'Lora', serif;
+    font-size: 16px;
+}
+.priceFilter, .typeF, .ratingF, .priceF, .titleR, .restaurantF{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.menuItem {
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    border-radius:8px;
+    width: 200px;
+}
+
+.menuItem img {
+    /* max-width: 100%; */
+    width: 180px;
+    height: 200px !important;
+    height: auto;
+}
+
+.addToCartButton {
+    font-family: 'Patrick Hand', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--darkerbg);
+    color: #fff;
+    border: none;
+    padding: 10px;
+    border-radius:16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.addToCartButton:hover {
+    background-color:var(--darkerbg);
+}
+
+.addToCartButton i {
+    margin-right: 5px;
+}
+.fa-shopping-cart{
+    color: var(--darkerbg) !important;
+}
+#cartModal{
+   
+    position: fixed;
+    top: 140px;
+    left: 50%;
+    border-radius: 1rem;
+       overflow-y: scroll;
+    display: none;
+    padding: 2rem 0;
+    /* padding-top: 20px; */
+}
+#cartModal::-webkit-scrollbar{
+    width: 30px;
+}
+#cartModal::-webkit-scrollbar-thumb{
+    /* background: #f0f0f0; */
+    border-radius: 1rem;
+
+}
+#cartIcon {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    
+}
+
+#cartCount {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+}
+#cartModal {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    justify-content: center;
+    align-items: center;
+}
+
+.modalContent {
+   background: #fff;
+       position: fixed; 
+   top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+border-radius: 1rem;    
+    padding: 20px;
+     width: 40%; 
+    height: 90%;
+    overflow-y: scroll;
+}
+
+.closeModal {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+.filterOnOff{
+    margin: 20px 8px;
+    cursor: pointer;
+    width: 100px;
+    height: 42px;
+     border: none;
+    color:var(--blackCol) !important;
+    border-radius: 16px;
+    background-color:var(--backgroundColor-headerAndFooter);
+    text-align: center;
+    padding: 8px 20px;
+    font-family: 'Pacifico', cursive;
+}
+.filterOnOff:hover{
+    color: white !important;
+    background-color: #8da438 ;
+}
+.addToCartButton:hover{
+    color: black;
+    background-color: var(--backgroundColor-headerAndFooter);
+}
+.burger-icon {
+    display: none;
+    
+}
+.burIcon{
+    color: var(--darkerbg);
+}
+.burger-icon:hover{
+    color: black !important;
+}
+@media screen and (max-width: 870px) {
+    #headerNavUl {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 70px;
+        left: 0;
+        right: 0;
+        background-color: #fff;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+.modalContent{
+    width: 70%;
+}
+    .burger-icon {
+        display: block;
+        margin-left: 10px;
+        color: black;
+        margin-top: 36px;
+        cursor: pointer;
+    }
+
+    #headerNavUl.show {
+        margin-top: 30px;
+        display: flex;
+    }
+
+    .header__nav__ul__li {
+        padding: 6px;
+        text-align: center;
+    }
+
+    .header__nav__ul__li__a {
+        text-decoration: none;
+        color: #333;
+    }
+
+    .header__lang__img {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 470px){
+    .main{
+        margin: 10px 0 0 20% ; 
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
