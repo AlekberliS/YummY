@@ -343,10 +343,10 @@ width: 240px;
 }
 @media screen and (max-width: 390px){
     header , #headerNavUl{
-        width: 114%;
+        width: 132.6%;
     }
     footer{
-        width: 114% !important; 
+        width: 132.6% !important; 
     } 
     nav{
         margin-right: 30px;
