@@ -102,7 +102,21 @@ input, textarea{
         width: 120%;
     } 
 }
-
+ @media screen  and (min-width:991px) and (max-width:1020px){
+    header{
+        width: 100%;
+    }
+    .footer{
+        width: 100%;
+    }
+    .contact__all{
+        gap: 4px;
+        margin-left: -10px;
+    }
+    .map{
+        width: 200px;
+    }
+ }
 
 .burger-icon {
     display: none;
